@@ -23,7 +23,7 @@ export default function Product(props) {
         </h3>
         {props.comingSoon?null:
         <a
-          href="https://tally.so/r/mV8WpE"
+          href={props.link}
           className="py-[1.5vw] px-[3vw] w-fit mx-auto rounded-md font-thin text-center justify-center border border-white lg:py-[0.4vw] lg:px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide"
         >
           Join
@@ -32,7 +32,7 @@ export default function Product(props) {
       </div>
 
       {props.comingSoon && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold coming-soon opacity-0 hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-90 text-white text-3xl font-bold coming-soon opacity-0 hover:opacity-100 transition-opacity duration-300">
           Coming Soon
         </div>
       )}

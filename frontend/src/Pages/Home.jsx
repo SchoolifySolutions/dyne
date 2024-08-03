@@ -30,8 +30,8 @@ export default function Home() {
       <div  className=" w-screen h-fit lg:mt-0 mt-32">
         <div className="w-screen h-fit relative">
           <div className="w-fit h-fit relative  ">
-        <img src={bg} className="w-screen lg:!relative !z-0 h-fit max-lg:hidden"></img>
-        <img src={mobile} className="w-screen relative !z-0 h-screen lg:hidden"></img>
+        <img src={bg} className="w-screen lg:!relative !z-0 h-fit max-lg:hidden" id="home"></img>
+        <img src={mobile} className="w-screen relative !z-0 h-screen lg:hidden" id="home"></img>
         <div className="w-screen h-full bg-gradient-to-b from-transparent via-20% via-transparent  to-black absolute top-[2vh] left-0 z-10">
 
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="relative -left-[50%] ">
           <a className="lg:flex hidden w-fit px-[0.2vh] py-[0.4vh] mx-auto border bg-[#5271ff4e] border-[#5271ff] rounded-3xl transition-all  mb-[8vh] hover:scale-105" href="https://tally.so/r/mV8WpE">
             <h1 className="text-white tracking-normal transition-all mt-[0.6vh] ease-in font-normal  px-[1vw]">
-            Introducing Our Bootcamp waitlist - <span className="font-normal text-blue-400 mr-0 pr-0">Check it out here →</span>
+            Introducing Our Bootcamp waitlist - <a href="/#projects" className="font-normal text-blue-400 mr-0 pr-0">Check it out here →</a>
             </h1>
           </a>
           <h1 className="lg:text-[5vw] w-[90vw] font-bold text-white text-[10vw] lg:mt-0 md:mt-[0vh] mt-[7vh] title">
@@ -49,10 +49,10 @@ export default function Home() {
           </h1>
           
           <h2 className="Home-Landing-Text mx-auto lg:text-[1.1vw] text-[4vw] text-gray-300 tracking-normal font-normal max-w-[90vw] lg:max-w-[50vw] lg:mt-0 mt-5">
-          At Dyne Research, we're committed to igniting the passion for STEM through our comprehensive bootcamp programs. Start your journey today—join us for FREE!</h2>
+          At Dyne Research, we're committed to igniting the passion for STEM through our comprehensive stem-research and bootcamp programs. Start your journey today!</h2>
         <div className="flex lg:flex-row flex-col lg:gap-0 gap-1 w-fit mx-auto mt-[8vh] text-white">
             <a
-              href="https://tally.so/r/mV8WpE"
+              href="/bootcamp/web-dev"
               className="py-[1.5vw] px-[3vw] lg:w-fit w-[70vw] mx-auto rounded-md font-thin text-center justify-center h-fit  border lg:py-[0.4vw] lg:px-[1vw] bg-[#5369ed] border-[#5369ed] hover:scale-110 transition-all ease-in-out tracking-wide"
             >
               Join the Waitlist
@@ -76,21 +76,16 @@ export default function Home() {
       <div className="mx-auto lg:pr-20 pr-0 !ml-[2vw] lg:text-left text-center">
         <h3 className="text-blue-300 lg:mb-[7vh] mb-[1vh] text-left">MISSION</h3>
         <h1 className="lg:text-[2.6vw] text-[7vw] text-left Mission-Gradient !font-normal mb-[7vh] tracking-[0.05vw]">
-          PIONEERING STEM BOOTCAMPS
+          PIONEERING STEM RESEARCH
         </h1>
       </div>
       <div className="mx-auto lg:pl-20 pl-0 lg:w-1/2 w-full !mr-[2vw] lg:text-left text-center">
-        <h2 className="lg:text-[0.9vw] text-[4vw] tracking-[0.15vw] lg:mt-[-11vh] mt-0 font-normal Content-Font mb-[5vh] text-left">
-        At our STEM Bootcamp, we empower aspiring innovators globally through immersive training and collaborative projects in STEM fields. With expert mentorship and hands-on learning, we inspire groundbreaking skills and shape the future of technology and science.
+        <h2 className="lg:text-[0.9vw] text-[4vw] tracking-[0.15vw] lg:mt-[7vh] mt-0 font-normal Content-Font mb-[5vh] text-left">
+        At our organization, we empower aspiring innovators globally through immersive training and collaborative projects in STEM fields. With expert mentorship and hands-on learning, we inspire groundbreaking skills and shape the future of technology and science.
         </h2>
-        <a className="Content-Font inline-block font-normal border border-white rounded-xl text-white p-[1vh] px-[3vh] hover:bg-[#5369ed] hover:border-[#5369ed] hover:scale-110 transition-all ease-in-out cursor-pointer lg:text-[0.9vw] text-[4vw]" href="https://tally.so/r/mV8WpE">
-          Join Waitlist
-        </a>
       </div>
     </div>
     </div>
-
-
 
         <div className="h-[75vh] flex items-center lg:mt-[10vw] md:mt-[2vh] mt-[10vh]">
           <div className="w-4/5 h-[75vh]  mx-auto  items-center text-center px-[1vw] relative py-[13vh] flex lg:flex-row flex-col  text-white">
@@ -114,24 +109,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="h-[50vh] flex items-center lg:mt-[12.5vh] md:mt-[30vh] mt-[25vh]" id="news">
-  <div className="w-4/5 mx-auto flex lg:flex-row flex-col items-center text-center text-white">
-    <div className="mx-auto lg:pr-20 pr-0 !ml-[2vw] lg:text-left text-center">
-      <h3 className="text-blue-300 tracking-[0.15vw] lg:mb-[7vh] mb-[1vh] text-left">NEWS</h3>
-      <h1 className="lg:text-[2.6vw] md:text-[5vw] text-[7vw] text-left Mission-Gradient !font-normal mb-[4vh] tracking-[0.05vw]">
-        LATEST UPDATES @
-      </h1>
-      <div className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src={Logo} className="lg:w-[2.5vw] w-[8vw] mt-0" alt="Dyne Logo" />
-        <h1 className="text-2xl mt-1 text-white !font-light">DYNE RESEARCH</h1>
-      </div>
-    </div>
-    <div className="mx-auto lg:pl-20 pl-0 lg:w-1/2 w-full !mr-[2vw] lg:text-left text-left lg:mt-0 mt-[5vh]">
-      <h2 className="lg:text-[0.9vw] md:text-[3vw] text-[4vw] tracking-[0.1vw] lg:mt-[6vh] mt-0 font-normal Content-Font w-11/12 mb-[5vh]">
-      At Dyne Research, we're thrilled to introduce a new bootcamp designed to spark creativity and collaboration among young STEM enthusiasts worldwide. This program will offer students hands-on experience in STEM, providing them with the skills and support needed to lead their own projects. Join our waitlist as we gear up to advance STEM education and foster the next generation of innovators.</h2>
-    </div>
-  </div>
-</div>
+        
 
         <div className="h-[75vh] flex items-center lg:mt-[30vh] mt-[50vh]"  id="projects">
           <div className="lg:w-4/5 w-screen mx-auto items-center text-center text-white">
@@ -144,7 +122,6 @@ export default function Home() {
               </h1>
             </div>
             <div className="flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between mt-[10vh]">
-             
               <Product
                 heading={"Cybersecurity"}
                 image={Product2}
@@ -159,6 +136,7 @@ export default function Home() {
                 heading={"Full-Stack Development"}
                 image={Product1}
                 comingSoon={false}
+                link={"/bootcamp/web-dev"}
                 description={
                   "Join Dyne's Full-Stack Development Bootcamp to master both front-end and back-end technologies. Transform your skills and drive innovation by building powerful, web applications scratch."
                 }
@@ -204,7 +182,6 @@ export default function Home() {
             </img>
           </div>
         </div>
-
         </div>
       <Footer/>
     </div>

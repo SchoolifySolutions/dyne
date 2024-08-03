@@ -25,14 +25,7 @@ export default function Footer() {
                     Mission
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/#news"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal text-[1.1vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
-                  >
-                    News
-                  </a>
-                </li>
+                
                 <li>
                   <a
                     href="/#projects"
@@ -49,10 +42,18 @@ export default function Footer() {
                     Sponsor
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/careers"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal text-[1.1vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
+                  >
+                    Careers
+                  </a>
+                </li>
           </ul>
         </div>
         
-        <div className="lg:w-1/3 mx-auto w-screen lg:mt-0 mt-5">
+        <div className="lg:w-1/5 mx-auto w-screen lg:mt-0 mt-5">
           <img
             src={logo}
             className=" lg:w-[3vw] mx-auto w-[5.5vh] h-[5.5vh] lg:h-fit  lg:mt-[8vh] mt-[5vh] brightness-75  "

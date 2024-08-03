@@ -69,7 +69,7 @@ function Navbar() {
               <ul className=" popup !font-normal lg:text-[0.9vw] text-[3.3vw] flex flex-col p-4 lg:p-0 mt-4 border lg:pt-10 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:border-gray-700" >
                 <li>
                   <a
-                    href="/"
+                    href="/#home"
                     className="block py-2 px-3 !font-normal uppercase lg:text-[0.9vw] text-[3.3vw] text-white lg:hover:text-blue-700 rounded bg-transparent lg:text-white-700 lg:p-0 dark:text-white lg:dark:text-white-500"
                     aria-current="page"
                   >
@@ -86,18 +86,10 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="/#news"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
-                  >
-                    News
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="/#projects"
                     className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
-                    Projects
+                    Bootcamps
                   </a>
                 </li>
                 <li>
@@ -108,11 +100,19 @@ function Navbar() {
                     Sponsor
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/careers"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
+                  >
+                    Careers
+                  </a>
+                </li>
               </ul>
             </div>
             <div className={` ${isSmallScreen ? "w-1/12 " : "hidden"}`}></div>
             <a
-              href="https://tally.so/r/mV8WpE"
+              href="/#projects"
               className={` w-fit mx-auto text-white ml-20 rounded-md lg:text-[0.9vw] !h-fit pt-2 text-[3.3vw] font-thin text-center justify-center border border-white py-[0.4vw] px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide ${
                 isSmallScreen ? "hidden lg:inline-block" : "lg:inline-block"
               }`}
