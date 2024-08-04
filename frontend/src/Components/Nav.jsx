@@ -102,7 +102,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="/careers"
+                    href="https://form.jotform.com/242166297737164"
                     className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
                     Careers

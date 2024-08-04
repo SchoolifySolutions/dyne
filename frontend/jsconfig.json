@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es6",                 // Specify ECMAScript target version
+      "baseUrl": "src",                // Base directory to resolve non-relative module names
+      "paths": {
+        "@components/*": ["components/*"],
+        "@utils/*": ["utils/*"],
+        "@assets/*": ["assets/*"]
+      },
+      "jsx": "react"                   // Enable JSX support
+    },
+    "include": [
+      "src/**/*"                       // Include all files in the src directory
+    ],
+    "exclude": [
+      "node_modules",                  // Exclude node_modules directory
+      "build"                          // Exclude build directory
+    ]
+  }
+  
