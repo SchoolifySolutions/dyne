@@ -102,11 +102,11 @@ export default function Bootcamp() {
           </div>
           <div className="absolute md:bottom-36 bottom-14 left-[50%] w-fit h-fit">
             <div className="relative -left-[50%] md:w-[60vw] w-[90vw] md:max-h-[30vh] max-h-[100vh] bg-[#121212] rounded-xl px-[2vw] py-[3vh]">
-              <h1 className="text-white font-normal text-2xl ">
+              <h1 className="text-white font-normal text-2xl text-center md:text-left">
                 Want to learn more about our bootcamp?
               </h1>
               <div className="flex flex-col md:flex-row mt-4">
-                <h2 className="text-neutral-300  font-normal text-md w-[100%] md:w-[60%]">
+                <h2 className="text-neutral-300  font-normal text-md w-[100%] md:w-[60%] text-center md:text-left">
                   Curious about transforming your career with our Full Stack Web
                   Development Bootcamp? Join an info session to explore our
                   comprehensive curriculum and get your questions answered by
@@ -127,11 +127,11 @@ export default function Bootcamp() {
       </motion.div>
       <div className="w-screen mx-auto pb-5 bg-[#121212] min-h-[92vh]">
         <div className="md:w-[70vw] w-[90vw] mx-auto">
-          <h1 className="text-neutral-100 font-normal md:text-[6vh] text-3xl mx-auto w-fit text-center pt-20">
+          <h1 className="text-neutral-100 font-normal md:text-[6vh] text-3xl mx-auto w-fit text-center pt-20 pb-7">
             What to Expect?
           </h1>
           <div className="flex flex-col md:flex-row justify-between mt-10">
-            <div className="md:w-1/3 w-[90vw] md:mx-4 mx-0  h-fit">
+            <div className="md:w-1/3 w-[90vw] md:mx-4 mx-0  h-fit mt-10 md:mt-0">
               <img
                 className="rounded-lg object-cover h-[30vh] w-full"
                 src={
