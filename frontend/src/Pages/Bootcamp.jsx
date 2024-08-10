@@ -186,7 +186,9 @@ export default function Bootcamp() {
             >
               Get Course Overview
             </a>
-            <h1 className="text-white w-fit mx-auto   my-auto md:mx-4">OR</h1>
+            <h1 className="text-white w-fit mx-auto my-2  md:my-auto md:mx-4">
+              OR
+            </h1>
             <a
               href="https://calendly.com/dyneresearch/30min"
               target="_blank"
@@ -213,7 +215,7 @@ export default function Bootcamp() {
             </label>
             <input
               type="text"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your Full Name"
               onChange={(e) => setFullName(e.target.value)}
               value={fullName}
@@ -224,7 +226,7 @@ export default function Bootcamp() {
             </label>
             <input
               type="email"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your Email"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
@@ -237,7 +239,7 @@ export default function Bootcamp() {
               type="number"
               min="10"
               max="100"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your Age"
               onChange={(e) => setAge(e.target.value)}
               value={age}
@@ -246,7 +248,7 @@ export default function Bootcamp() {
             <label className="text-white text-lg ">Phone Number</label>
             <input
               type="tel"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your Phone Number"
               onChange={(e) => setPhoneNumber(e.target.value)}
               value={phoneNumber}
@@ -254,7 +256,7 @@ export default function Bootcamp() {
             <label className="text-white text-lg ">Linkedin</label>
             <input
               type="url"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your Linkedin Profile Page"
               onChange={(e) => setLinkedin(e.target.value)}
               value={linkedin}
@@ -266,7 +268,7 @@ export default function Bootcamp() {
               type="number"
               min="0"
               max="10"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="# of Years of Experience"
               onChange={(e) => setExperience(e.target.value)}
               value={experience}
@@ -277,7 +279,7 @@ export default function Bootcamp() {
             </label>
             <input
               type="text"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               placeholder="Your School's Name"
               onChange={(e) => setSchool(e.target.value)}
               value={school}
@@ -289,7 +291,7 @@ export default function Bootcamp() {
             <select
               id="country"
               name="country"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               onChange={(e) => setCountry(e.target.value)}
               value={country}
               required
@@ -600,7 +602,7 @@ export default function Bootcamp() {
             <select
               id="media-select"
               name="media"
-              className="bg-black border-[0.5px] border-gray-500 rounded-lg px-[1vw] py-[1vh] mb-5 mt-1 w-full text-white"
+              className="bg-black border-[0.5px] border-gray-500 rounded-lg md:px-[1vw]  px-[3vw] py-[1vh] mb-5 mt-1 w-full text-white"
               onChange={(e) => setWhere(e.target.value)}
               value={where}
               required
