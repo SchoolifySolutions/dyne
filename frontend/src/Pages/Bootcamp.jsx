@@ -66,7 +66,7 @@ export default function Bootcamp() {
           from experienced Individuals
         </h1>
         <h2 className="mx-auto w-fit text-neutral-200 font-normal text-lg mt-4">
-          A course designed to bring you from 0 to up to speed on the latest web
+          A course designed to bring you from 0 to hero on the latest web
           development trends.
         </h2>
         <h1 className="text-white font-normal mt-2 w-fit mx-auto">
@@ -110,12 +110,12 @@ export default function Bootcamp() {
         </div>
       </div>
       <div className="w-screen mx-auto pb-5 bg-[#121212] min-h-[92vh]">
-        <div className="w-[70vw] mx-auto">
+        <div className="md:w-[70vw] w-[90vw] mx-auto">
           <h1 className="text-neutral-100 font-normal text-[6vh] text-center pt-20">
             What to Expect?
           </h1>
-          <div className="flex justify-between mt-10">
-            <div className="w-1/3 mx-4  ">
+          <div className="flex flex-col md:flex-row justify-between mt-10">
+            <div className="md:w-1/3 w-[90vw] md:mx-4 mx-0  ">
               <img
                 className="rounded-lg object-cover h-[30vh] w-full"
                 src={
@@ -129,7 +129,7 @@ export default function Bootcamp() {
                 Learn in small groups for a personalized experience.
               </p>
             </div>
-            <div className="w-1/3 mx-4">
+            <div className="md:w-1/3 w-[90vw] md:mx-4 mx-0  ">
               <img
                 className="rounded-lg object-cover h-[30vh] w-full"
                 src={
@@ -144,7 +144,7 @@ export default function Bootcamp() {
                 the tools involved.
               </p>
             </div>
-            <div className="w-1/3 mx-4 ">
+            <div className="md:w-1/3 w-[90vw] md:mx-4 mx-0   ">
               <img
                 className="rounded-lg object-cover h-[30vh] w-full"
                 src={
@@ -162,7 +162,7 @@ export default function Bootcamp() {
           <h3 className="w-fit text-white font-normal mx-auto text-2xl mt-14">
             Want more information?
           </h3>
-          <div className="flex w-fit mx-auto mt-7">
+          <div className="flex flex-col md:flex-row w-fit mx-auto mt-7">
             <a
               href="https://docs.google.com/document/d/1qvk6HE1BojWALtgD1c857nlmc-ViTMQE-bM0aPMDJ7Y/edit?usp=sharing"
               target="_blank"
@@ -170,7 +170,7 @@ export default function Bootcamp() {
             >
               Get Course Overview
             </a>
-            <h1 className="text-white  my-auto mx-4">OR</h1>
+            <h1 className="text-white w-fit mx-auto   my-auto md:mx-4">OR</h1>
             <a
               href="https://calendly.com/dyneresearch/30min"
               target="_blank"
@@ -181,7 +181,7 @@ export default function Bootcamp() {
           </div>
         </div>
       </div>
-      <div className="mt-20 w-[40vw] mx-auto">
+      <div className="mt-20 md:w-[40vw] w-[90vw]  mx-auto">
         <h1 className="text-white w-fit mx-auto text-3xl mb-1">
           Course Sign Up
         </h1>
