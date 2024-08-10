@@ -78,7 +78,8 @@ export default function Bootcamp() {
         </h1>
         <div className="w-fit mx-auto mt-10">
           <a
-            href="mailto:dynereserach@gmail.com"
+            href="https://docs.google.com/document/d/1qvk6HE1BojWALtgD1c857nlmc-ViTMQE-bM0aPMDJ7Y/edit?usp=sharing"
+            target="_blank"
             className=" bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit mt-20 mx-auto"
           >
             Get Course Overview
@@ -97,7 +98,8 @@ export default function Bootcamp() {
                   rewarding career in tech today!
                 </h2>
                 <a
-                  href="mailto:dynereserach@gmail.com"
+                  href="https://calendly.com/dyneresearch/30min"
+                  target="_blank"
                   className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 h-fit mx-auto hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit "
                 >
                   Schedule a Meeting
@@ -162,15 +164,17 @@ export default function Bootcamp() {
           </h3>
           <div className="flex w-fit mx-auto mt-7">
             <a
-              href="mailto:dynereserach@gmail.com"
-              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-xl w-fit my-auto"
+              href="https://docs.google.com/document/d/1qvk6HE1BojWALtgD1c857nlmc-ViTMQE-bM0aPMDJ7Y/edit?usp=sharing"
+              target="_blank"
+              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit my-auto"
             >
               Get Course Overview
             </a>
             <h1 className="text-white  my-auto mx-4">OR</h1>
             <a
-              href="mailto:dynereserach@gmail.com"
-              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-xl w-fit my-auto"
+              href="https://calendly.com/dyneresearch/30min"
+              target="_blank"
+              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit my-auto"
             >
               Schedule a Meeting
             </a>
