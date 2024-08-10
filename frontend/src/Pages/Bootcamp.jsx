@@ -87,14 +87,14 @@ export default function Bootcamp() {
           <div className="flex  gap-4 mt-14">
             <a
               href="#form"
-              className=" bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit  mx-auto"
+              className=" bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black md:px-[1vw] px-[3vw] py-[1vh] rounded-xl block font-normal text-lg w-fit  mx-auto"
             >
               Register
             </a>
             <a
               href="https://docs.google.com/document/d/1qvk6HE1BojWALtgD1c857nlmc-ViTMQE-bM0aPMDJ7Y/edit?usp=sharing"
               target="_blank"
-              className=" bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit  mx-auto"
+              className=" bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black md:px-[1vw] px-[3vw] py-[1vh] rounded-xl block font-normal text-lg w-fit  mx-auto"
               download="Web_Dev_Bootcamp"
             >
               Get Course Overview
@@ -116,7 +116,7 @@ export default function Bootcamp() {
                 <a
                   href="https://calendly.com/dyneresearch/30min"
                   target="_blank"
-                  className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 h-fit mx-auto hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal md:mt-0 mt-4 text-lg w-fit "
+                  className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 h-fit mx-auto hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black md:px-[1vw] px-[3vw] py-[1vh] rounded-xl block font-normal md:mt-0 mt-4 text-lg w-fit "
                 >
                   Schedule a Meeting
                 </a>
@@ -182,7 +182,7 @@ export default function Bootcamp() {
             <a
               href="https://docs.google.com/document/d/1qvk6HE1BojWALtgD1c857nlmc-ViTMQE-bM0aPMDJ7Y/edit?usp=sharing"
               target="_blank"
-              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit my-auto"
+              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black md:px-[1vw] px-[3vw] py-[1vh] md:mx-0 mx-auto rounded-xl block font-normal text-lg w-fit my-auto"
             >
               Get Course Overview
             </a>
@@ -190,7 +190,7 @@ export default function Bootcamp() {
             <a
               href="https://calendly.com/dyneresearch/30min"
               target="_blank"
-              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black px-[1vw] py-[1vh] rounded-xl block font-normal text-lg w-fit my-auto"
+              className="bg-white hover:scale-110 hover:bg-transparent ease-out duration-500 hover:text-white border-white border-2 hover:shadow-md hover:shadow-white transition-all text-black md:px-[1vw] px-[3vw] py-[1vh] md:mx-0 mx-auto rounded-xl block font-normal text-lg w-fit my-auto"
             >
               Schedule a Meeting
             </a>
