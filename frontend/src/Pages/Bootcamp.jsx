@@ -60,7 +60,7 @@ export default function Bootcamp() {
     <>
       <Navbar />
       <motion.div
-        className="md:w-[70vw] w-[90vw] mx-auto mt-[23vh] pb-5 min-h-screen relative"
+        className="md:w-[70vw] w-[90vw] mx-auto mt-[23vh] pb-5 md:min-h-screen min-h-[110vh] relative"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -72,11 +72,11 @@ export default function Bootcamp() {
           </span>{" "}
           from experienced Individuals
         </h1>
-        <h2 className="mx-auto w-fit text-neutral-200 font-normal md:text-lg mt-6 md:mt-4">
+        <h2 className="mx-auto w-fit text-neutral-200 font-normal md:text-lg mt-6 md:mt-4 text-center md:text-left">
           A course designed to bring you from zero to mastery on the latest web
           development trends.
         </h2>
-        <h1 className="text-white font-normal mt-2 w-fit mx-auto">
+        <h1 className="text-white font-normal mt-2 w-fit mx-auto text-center md:text-left">
           No prior experience required, Next session starts on{" "}
           <span className="underline font-normal text-blue-500">
             August 26th
@@ -100,13 +100,13 @@ export default function Bootcamp() {
               Get Course Overview
             </a>
           </div>
-          <div className="absolute md:bottom-36 bottom-4 left-[50%] w-fit h-fit">
+          <div className="absolute md:bottom-36 bottom-14 left-[50%] w-fit h-fit">
             <div className="relative -left-[50%] md:w-[60vw] w-[90vw] md:max-h-[30vh] max-h-[100vh] bg-[#121212] rounded-xl px-[2vw] py-[3vh]">
               <h1 className="text-white font-normal text-2xl ">
                 Want to learn more about our bootcamp?
               </h1>
               <div className="flex flex-col md:flex-row mt-4">
-                <h2 className="text-neutral-300 font-normal text-md w-[100%] md:w-[60%]">
+                <h2 className="text-neutral-300  font-normal text-md w-[100%] md:w-[60%]">
                   Curious about transforming your career with our Full Stack Web
                   Development Bootcamp? Join an info session to explore our
                   comprehensive curriculum and get your questions answered by
